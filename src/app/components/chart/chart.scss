@@ -1,0 +1,123 @@
+chart {
+  .chart-box {
+    background: #fff;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+    width: 90%;
+    height: 100%;
+
+    .chart-container {
+      max-height: 35%;
+      height: 35%;
+      width: 66%;
+      float: left;
+      clear: both;
+      margin-bottom: 1em;
+    }
+
+    span {
+      font-weight: bold;
+    }
+
+    .title-right {
+      float: right;
+
+      h4 {
+        float: right;
+      }
+
+      h5 {
+        margin: 0;
+      }
+    }
+
+    .title-left {
+      float: left;
+      margin-bottom: 1em;
+
+      h2 {
+        font-weight: bold;
+        margin: 0;
+      }
+    }
+
+    .chart-row {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+    }
+
+    .totals {
+      float: right;
+      width: 25%;
+      position: absolute;;
+      right: 0;
+      bottom: 0;
+      margin-bottom: .75em;
+
+      h1 {
+        font-weight: 300;
+      }
+
+      progress {
+        appearance: none;
+        height: .5em;
+        width: 100%;
+        background-color: #eeeeee;
+        border-radius: 5px;
+        border: none;
+        background-size: auto;
+      }
+
+      progress::-webkit-progress-bar {
+        appearance: none;
+        height: .5em;
+        width: 100%;
+        background-color: #eeeeee;
+        border-radius: 5px;
+        border: none;
+        background-size: auto;
+      }
+
+      progress::-webkit-progress-value {
+        appearance: none;
+        background-color: #16a085;
+        height: .5em;
+        border-radius: 5px;
+      }
+
+      progress::-moz-progress-bar {
+        appearance: none;
+        height: .5em;
+        width: 100%;
+        background-color: #eeeeee;
+        border-radius: 5px;
+        border: none;
+        background-size: auto;
+      }
+
+      progress::-moz-progress-value {
+        appearance: none;
+        background-color: #16a085;
+        height: .5em;
+        border-radius: 5px;
+      }
+    }
+
+    .caption {
+      float: left;
+      clear: both;
+
+      h5 {
+        float: left;
+      }
+
+      .updated-on {
+        margin-left: 5em;
+      }
+    }
+  }
+}

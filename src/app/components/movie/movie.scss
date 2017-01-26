@@ -1,0 +1,58 @@
+movie {
+  width: 100%;
+
+  &:nth-child(2) {
+    .movie {
+      float: right;
+    }
+  }
+
+  .movie {
+    background: #fff;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 1.75em;
+    float: left;
+
+    &:nth-child(2) {
+      float: right;
+    }
+
+    h2 {
+      font-size: 2.5em;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    h6 {
+      font-size: 1em;
+      font-weight: 200;
+      span {
+        font-weight: normal;
+      }
+    }
+
+    .show-time {
+      clear: both;
+      display: flex;
+      overflow: hidden;
+      p {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.3em;
+        justify-content: center;
+        margin: 0;
+      }
+      button {
+        &.buy-tickets-btn {
+          margin: .5em 0 .5em 6em;
+          padding: .5em .75em;
+          font-size: 1.3em;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+        }
+      }
+    }
+  }
+}

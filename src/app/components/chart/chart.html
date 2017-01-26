@@ -1,0 +1,27 @@
+<div class="row col-lg-12 chart-box">
+  <div class="title-left">
+    <h2>Total Movie Sales</h2>
+    <h5>Comparison - Movie 1 and Movie 2</h5>
+  </div>
+  <div class="title-right">
+    <h5>Average value of sales in the past month in : <span>United States</span></h5>
+    <h4>All sales: 162,862</h4>
+  </div>
+  <div class="chart-row">
+    <div class="chart-container">
+      <canvas id="line" class="chart chart-line" chart-data="vm.data" chart-labels="vm.labels" chart-series="vm.series" chart-options="vm.options" chart-dataset="vm.dataset" chart-dataset-override="vm.datasetOverride"></canvas>
+    </div>
+    <div class="totals">
+      <h1>2,346</h1>
+      <h5>Total orders - Movie 1</h5>
+      <progress max="100" value="50" class="bar-total"></progress>
+      <h1>4,422</h1>
+      <h5>Total orders - Movie 2</h5>
+      <progress max="100" value="66" class="bar-total"></progress>
+    </div>
+  </div>
+  <div class="caption">
+    <h5><span>Analysis of sales:</span> The value has been changed over time, and last month reached a level over $50,000.</h5>
+    <h5 class="updated-on"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> Update on 16.07.2015</h5>
+  </div>
+</div>

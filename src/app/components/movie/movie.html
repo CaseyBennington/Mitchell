@@ -1,0 +1,8 @@
+<div class="row col-sm-5 movie">
+  <h2>{{vm.movie.title}}</h2>
+  <h6><span>Release Date</span> <span class="glyphicon glyphicon-time" aria-hidden="true"></span> {{vm.movie.releaseDate | date : "dd MMM y"}}</h6>
+  <div class="show-time" ng-repeat="time in vm.movie.showTimes">
+    <p>{{time | date : format : "longDate"}}</p>
+    <button class="btn btn-primary buy-tickets-btn">Buy Tickets</button>
+  </div>
+</div>
